@@ -7,7 +7,11 @@ class MyApp < Sinatra::Base
   end
 
   get "/about-me" do
-    "My name is Richa."
+    erb :about_me
+  end
+
+  get "/posts/:id" do
+    params[:id]
   end
 
 end

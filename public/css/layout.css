@@ -1,0 +1,92 @@
+/*.box-test {
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  background-color: red;
+}*/
+
+body {
+  margin: 0;
+  font-family: "Lobster", Helvetica, Arial, serif;
+}
+
+.horizontal-list li:hover {
+  background-color: #2e9d99;
+}
+
+.header {
+  background-color: #3baeae;
+  height: 40px;
+
+  /*margin: 0 auto;*/
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.brand {
+  background-image: #3baeae url(cat-logo.png) no-repeat top center;
+  font-size: 25pt;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.horizontal-list > li {
+  font-size: 14pt;
+  margin: 0 5px;
+  height: 25px;
+  padding-top: 10px;
+  display: inline-block;
+  position: relative;
+  /*list-style: none;*/
+}
+
+.nav horizontal-list li a{
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+
+.dropdown {
+  /*position: relative;
+  left: 0;*/
+  display: none;
+}
+
+li:hover > .dropdown {
+  position: absolute;
+  display: inline;
+  background-color: #3baeae;
+  margin-top: 8px;
+
+}
+
+/*.test {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}*/

@@ -1,3 +1,20 @@
 <h1>Hello World! This is a cool app!!</h1>
 <!-- This is a comment command+/ -->
 The current time is <%= Time.now %>
+
+<hr>
+Params: <%= params.inspect %>
+<hr>
+
+<form action='/' method='POST'>
+  First Name:
+  <input type='text' name='first_name' /><br>
+
+  Last Name:
+  <input type='text' name='last_name' /><br>
+
+  Password:
+  <input type='password' name='password' /><br>
+
+  <input type='submit'>
+</form>
